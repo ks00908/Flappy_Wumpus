@@ -8,15 +8,19 @@
                width:100%
              }
         </style>
-  
+		<meta property="og:title" content="Play Flappy Wumpus"/>
+<meta property="og:url" content="http://www.flappy-wumpus.tk"/>
+<meta property="og:site_name" content="Flappy Wumpus"/>
+<meta property="og:description" content="Play a flappy bird clone but with wumpus! Written in JavaScript and using Canvas for UI!"/>
     <title>Flappy Wumpus</title>
   </head>
-  <body>
+  <body style="background-color:#2C2F33; color: #efefef; font-family: Consolas">
    <h2 class="headertekst" >Flappy Wumpus</h2>
    <div style="text-align:center" >
    <canvas id="canvas" width="288" height="512"></canvas>
    </div>
-   <h3 class="headertekst"> Controls: when you press any button wumpus will jump higher, when you press nothing he will slowly lower</h3>
+
+   <h3 class="headertekst" style="font-family: Consolas">Warning: On slower connection moment between hitting pipe and game restart might be dalayed, this is presumably issue caused by using canvas for UI <br> Controls: when you press any button wumpus will jump higher, when you press nothing he will slowly lower</h3>
    
    <script src="flappyBird.js"></script>
   </body>
