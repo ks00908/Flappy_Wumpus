@@ -12,3 +12,7 @@ A game similar to Flappy bird, just with wumpus
 
 ## Official page with game
 http://www.flappy-wumpus.tk
+
+## Variables naming
+
+Due to game being more or less Flappy Bird clone i decided to keep naming like "bird" for player character.
